@@ -51,5 +51,84 @@ def menu():
         else:
             print("Choix invalide. Essayez encore.\n")
 
-# Lancer le programme
-menu()
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Répertoire Téléphonique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #004d40;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #00796b;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Répertoire Téléphonique</h1>
+</header>
+
+<main>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Téléphone</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer>
+    © 2025 projet NSI
+</footer>
+
+</body>
+</html>
