@@ -1,5 +1,3 @@
-# Répertoire téléphonique
-
 def afficher_repertoire(repertoire):
     print("\nRépertoire téléphonique :")
     for nom, numero in repertoire.items():
